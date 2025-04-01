@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rek="stylesheet"href="style.css">
+    <style>
+        body{
+            font-family:arial,sans-serif;
+            margin:0;
+            padding:0;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+        header{
+            background:#007acc;
+            color: white;
+            padding: 15px 0;;
+        } 
+        nav ul{
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li{
+            display:inline;
+            margin:0 15px;
+        }
+        nav ul li a{
+            color:white;
+            text-decoration: none;
+        }
+        section{
+            padding:20px;
+            margin:20px auto;
+            width:80%;
+            background: #fff5e1;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .project,.skill{
+            background: #ffcccb;
+            padding:10px;
+            margin:10px;
+            border-radius: 5px;
+        }
+        footer{
+            background: #333;
+            color:white;
+            padding:10px;
+            position: relative;
+            bottom:0;
+            width:100%;
+        }   
+        .portfolio-img{
+            width:200px;
+            height:200px;
+            border-radius: 50%;
+            display:block;
+            margin:auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2> About Me</h2>
+        <img src="portfolio.jpg"alt="Portfolio pic" class="portfolio-img">
+        <p>Hello! I'm a Web Developer passionate about creating beautiful and functional websites.</p>
+    </section>
+    <section id="skill">
+        <h2>Skills</h2>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JAVASCRIPT</div>
+        <div class="skill">JAVA</div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Tic Tac Toe</h3>
+            <p>A simple game built using javascript,HTML, and CSS. </p>
+        </div>
+        <div class="project">
+            <h3>Rock,Paper,Scissor</h3>
+            <p>An Interactive game implemented using javascript.</p>
+        </div>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Downlaod my resume</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email:example@examle.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 My potFolio</p>
+    </footer>
+    
+</body>
+</html>
